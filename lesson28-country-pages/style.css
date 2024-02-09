@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero button{
+    border-radius: 6px;
+
+box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+background: rgb(43, 56, 68);
+width: 136px;
+height: 40px;
+border: none;
+display: flex;
+padding:10px 35px ;
+align-items: center;
+justify-content: space-around;
+}
+#hero button:active{
+    background-color: transparent;
+}
+#hero button p{
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;   
+}
+#hero{
+    padding: 10px 200px;
+    margin: 80px 0;
+}
+.img img{
+    width: 559.71px;
+    height: 483.17px;
+    border-radius: 1px solid rgb(32, 44, 54);
+}
+#info{
+    padding: 10px 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.texts h3{
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.title p{
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.title1 p{
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.info-text{
+    display: flex;
+    width: 574px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.btns .btn2{
+    padding: 17px 42px;
+    border-radius: 2px;
+
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    background: rgb(43, 56, 68);
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* width: 42px;
+    height: 19px; */
+    border: none;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btns h4{
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media (max-width:576px) {
+    header{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+    .container h3{
+        font-size: 10px;
+        margin-right: 200px;
+        height: 50px;
+    }
+    .container h4{
+        font-size: 9px;
+        margin-left: 50px;
+    }
+    .img img{
+        width: 200px;
+        height: 150px;
+    }
+    #info{
+        padding: 10px;
+    }
+    .info-text{
+        width: 250px;
+    }
+    .btns .btn2{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    .container{
+        width: 575px;
+        
+    }
+    .title p{
+        font-size: 10px;
+    }
+    .title1 p{
+        font-size: 10px;
+    }
+    .info-text{
+        width: 300px;
+    }
+    .texts h3{
+        font-size: 15px;
+    }
+}
